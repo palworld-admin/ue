@@ -1,5 +1,8 @@
 #pragma once
 
+// Can be used to translate strings, or maybe encrypt them
+#define _(str) str
+
 // System Libraries
 #include <Windows.h>
 #include <iostream>
@@ -31,12 +34,14 @@
 #include "core/array/tenum.h"
 #include "core/array/fnamepool.h"
 #include "core/array/tobjectarray.h"
+#include "core/array/tmap.h"
 
 // UE Core Object
 #include "core/vfunction.h"
 #include "core/processevent.h"
 #include "core/fstring.h"
 #include "core/fname.h"
+#include "core/ftext.h"
 #include "core/uobject.h"
 #include "core/class/ufield.h"
 #include "core/class/uproperty.h"
