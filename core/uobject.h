@@ -1,5 +1,4 @@
 #pragma once
-#include <xor.h>
 
 namespace ue
 {
